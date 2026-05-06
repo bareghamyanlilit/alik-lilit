@@ -31,7 +31,7 @@ export function Home() {
         style={{ backgroundImage: `url("/envelope.png")` }}
       ></div>
       <div
-        className={`${openEnvelope ? "animate-bounceYT" : ""} bg-center bg-cover z-50 w-[160vw] h-[160vw] rounded-4xl absolute left-1/2 -bottom-[50%] -translate-x-1/2 -translate-y-1/2 rotate-45  `}
+        className={`${openEnvelope ? "animate-bounceYT" : ""} bg-center bg-cover z-50 w-[160vw] h-[160vw] rounded-4xl absolute left-1/2 -bottom-[60%] -translate-x-1/2 -translate-y-1/2 rotate-45  `}
         style={{ backgroundImage: `url("/envelope.png")` }}
       ></div>
       <img
