@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   title: "Ալիկ և Լիլիթ",
   description: "Ալիկ և Լիլիթ",
   openGraph: {
-    title: "Ալիկի և Լիլիթի նշանադրության հրավիրատոմս",
-    description: "Նշանադրության հրավիրատոմս",
+    title: "Ալիկի և Լիլիթի հարսանեկան հրավիրատոմս",
+    description: "Հարսանեկան հրավիրատոմս",
     url: "https://alik-lilit.vercel.app/",
     siteName: "Ալիկ և Լիլիթ",
     images: [

@@ -67,7 +67,7 @@ export function Home() {
           <span className="text-9xl text-taki"> & </span>
           <h2 className="text-[64px] mt-20 text-vrayi">{names[1]}</h2>
         </div>
-        <p className="FontSHK_Dzeragir text-[64px] text-vrayi">{date}</p>
+        <motion.p {...anim} className="FontSHK_Dzeragir text-[64px] text-vrayi">{date}</motion.p>
       </div>
 
       <div className="FontSHK_Dzeragir px-5 my-20">
@@ -107,9 +107,9 @@ export function Home() {
         ></motion.div>
       </div>
 
-      <p className="FontSHK_Dzeragir text-vrayi font-normal text-3xl tracking-[25%] text-center ">
+      <motion.p {...anim} className="FontSHK_Dzeragir text-vrayi font-normal text-3xl tracking-[25%] text-center ">
         {txt3}
-      </p>
+      </motion.p>
 
       <TimeBox />
 
